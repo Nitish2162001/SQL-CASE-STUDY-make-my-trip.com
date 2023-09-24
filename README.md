@@ -1,5 +1,7 @@
 # SQL-CASE-STUDY-make-my-trip.com
 SQL Scheme
+
+
 CREATE TABLE booking_table(
    Booking_id       VARCHAR(3) NOT NULL 
   ,Booking_date     date NOT NULL
@@ -41,3 +43,19 @@ INSERT INTO user_table(User_id,Segment) VALUES ('u7','s3');
 INSERT INTO user_table(User_id,Segment) VALUES ('u8','s3');
 INSERT INTO user_table(User_id,Segment) VALUES ('u9','s3');
 INSERT INTO user_table(User_id,Segment) VALUES ('u10','s3');
+
+
+
+
+Completed Data Analyst SQL Case Study for a Prominent Travel Company, Presented by Mr. Ankit Bansal.
+
+Within this engaging project, I meticulously examined a comprehensive dataset encompassing user reservations for both flights and hotels. My role revolved around addressing various inquiries related to user behaviors and preferences.
+
+I have thoughtfully enclosed the SQL queries used, along with their corresponding outcomes.
+
+Queries tackled in this project encompassed:
+
+1)Crafting an SQL query to generate the following insightful output (Summarized by segments).
+2)Formulating a query to identify users whose inaugural booking constituted a hotel reservation.
+3)Devising a query to compute the duration, in days, between a user's initial and most recent booking.
+4)Constructing a query to enumerate the tally of flight and hotel reservations for each user, exclusively for the year 2022.
